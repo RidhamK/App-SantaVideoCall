@@ -1,0 +1,28 @@
+
+K
+java:S1144é"/Remove this unused private "createData" method.(ˆÄæ‡ùÿÿÿÿ
+y
+java:S1450."^Remove the "setCallBackTime" field and declare it as a local variable in the relevant methods.(·®ñÌùÿÿÿÿ
+?
+java:S1185¦"(Remove this method to simply inherit it.(ÍÙ÷¢
+F
+java:S1066‘"/Merge this if statement with the enclosing one.(ùµ•›
+K
+java:S1066»"/Merge this if statement with the enclosing one.(ÔÚÛãûÿÿÿÿ
+P
+java:S24407".Remove this instantiation of "StorageManager".(·¾Ì¥ùÿÿÿÿ8ÈŞåò¾.
+X
+java:S2209‘"5Change this instance-reference to a static reference.(¸Õìåùÿÿÿÿ8ÈŞåò¾.
+8
+java:S1643¿"Use a StringBuilder instead.(”ãºıÿÿÿÿ
+n
+java:S3776¯"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ó»×¶şÿÿÿÿ
+]	java:S125g"<This block of commented-out lines of code should be removed.(Ôœ–şùÿÿÿÿ8™²ëèË.
+3
+java:S1643Á"Use a StringBuilder instead.(À“•
+q
+java:S1450."VRemove the "callNow" field and declare it as a local variable in the relevant methods.(·®ñÌùÿÿÿÿ
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(¬î´¬şÿÿÿÿ
+]	java:S110("<This class has 9 parents which is greater than 5 authorized.(™ï¾Œüÿÿÿÿ8ËÁÖ­×.
+z
+java:S3252“"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ß„Ïıÿÿÿÿ8ËÁÖ­×.

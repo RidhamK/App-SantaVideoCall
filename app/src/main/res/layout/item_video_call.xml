@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_7_5_unit"
+        app:cardElevation="@dimen/_5_unit">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="@dimen/_50_unit"
+                android:layout_height="@dimen/_75_unit"
+                android:layout_alignParentLeft="true"
+                android:scaleType="center" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/thumbnail"
+                android:layout_alignBottom="@id/thumbnail"
+                android:layout_toRightOf="@id/thumbnail">
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/AudioFileInfoOverlayText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5_unit"
+                    android:paddingTop="@dimen/_5_unit"
+                    android:text="Name"
+                    android:textSize="@dimen/font_10_unit"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/number"
+                    style="@style/AudioFileInfoOverlayText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name"
+                    android:paddingLeft="@dimen/_5_unit"
+                    android:paddingTop="@dimen/_5_unit"
+                    android:text="9999999999"
+                    android:textSize="@dimen/font_10_unit"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

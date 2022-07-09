@@ -1,0 +1,28 @@
+
+z
+java:S1104"XMake REWARDED_ADS a static final constant or non-public and provide accessors if needed.(Áúïšøÿÿÿÿ8ùÃâ‚½.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(âŒÉû8¨öá‚½.
+M
+java:S1444"0Make this "public static BANNER_ADS" field final(š¹áë8ùÃâ‚½.
+}
+java:S3008"[Rename this field "INTERSTITIAL_ADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¢Õ¼úÿÿÿÿ8ùÃâ‚½.
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¸„ù„
+r
+java:S3008"URename this field "BANNER_ADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¹áë8ùÃâ‚½.
+T
+java:S1444"2Make this "public static REWARDED_ADS" field final(Áúïšøÿÿÿÿ8ùÃâ‚½.
+a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’¤o8¨öá‚½.
+s
+java:S1104"VMake BANNER_ADS a static final constant or non-public and provide accessors if needed.(š¹áë8ùÃâ‚½.
+~
+java:S1104"\Make INTERSTITIAL_ADS a static final constant or non-public and provide accessors if needed.(“¢Õ¼úÿÿÿÿ8ùÃâ‚½.
+X
+java:S1444"6Make this "public static INTERSTITIAL_ADS" field final(“¢Õ¼úÿÿÿÿ8ùÃâ‚½.
+y
+java:S3008"WRename this field "REWARDED_ADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áúïšøÿÿÿÿ8ùÃâ‚½.
+D
+java:S1172A".Remove this unused method parameter "context".(Æ¶ş§
+X	java:S125"<This block of commented-out lines of code should be removed.(’Ì¢8Ö¡™®×.

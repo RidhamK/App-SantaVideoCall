@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_2_unit">8dp</dimen>
+    <dimen name="_2_5_unit">10dp</dimen>
+    <dimen name="_5_unit">20dp</dimen>
+    <dimen name="_8_unit">32dp</dimen>
+    <dimen name="_7_5_unit">30dp</dimen>
+    <dimen name="_15_unit">60dp</dimen>
+    <dimen name="_20_unit">80dp</dimen>
+    <dimen name="_27_5_unit">110dp</dimen>
+    <dimen name="_33_unit">132dp</dimen>
+    <dimen name="_50_unit">200dp</dimen>
+    <dimen name="_60_unit">240dp</dimen>
+    <dimen name="_63_unit">252dp</dimen>
+    <dimen name="_75_unit">300dp</dimen>
+    <dimen name="_90_unit">360dp</dimen>
+    <dimen name="_104_unit">416dp</dimen>
+    <dimen name="_160_unit">640dp</dimen>
+
+    <dimen name="font_7_unit">28sp</dimen>
+    <dimen name="font_9_unit">36sp</dimen>
+    <dimen name="font_10_unit">40sp</dimen>
+    <dimen name="font_11_unit">44sp</dimen>
+</resources>

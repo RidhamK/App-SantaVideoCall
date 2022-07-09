@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/af_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ad_icon"
+        android:layout_width="@dimen/_50_unit"
+        android:layout_height="@dimen/_50_unit"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/af_talkingcat" />
+
+    <TextView
+        android:id="@+id/ad_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ad_icon"
+        android:layout_marginLeft="@dimen/_2_unit"
+        android:layout_marginRight="@dimen/_2_unit"
+        android:layout_toLeftOf="@id/ad_install"
+        android:layout_toRightOf="@id/ad_icon"
+        android:gravity="center"
+        android:text="Talking Cat Video Call"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ad_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ad_title"
+        android:layout_alignLeft="@id/ad_title"
+        android:layout_alignRight="@id/ad_title"
+        android:layout_alignBottom="@id/ad_icon"
+        android:gravity="center"
+        android:text="Birthday Wishing Cat on Video call! Surprise your kids, friends and family members!"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/ad_install"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ad_get_more"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_2_unit"
+        android:layout_marginRight="@dimen/_2_unit"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:padding="@dimen/_5_unit"
+        android:text="INSTALL"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_7_unit"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ad_get_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ad_install"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/_2_unit"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:padding="@dimen/_5_unit"
+        android:text="GET MORE"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_7_unit"
+        android:textStyle="bold" />
+
+</RelativeLayout>

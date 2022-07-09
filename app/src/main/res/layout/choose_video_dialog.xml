@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_160_unit"
+    android:layout_height="wrap_content"
+    tools:context="christmas.hotvideocallprank.christmassantavideocall.snapchat.ContactListActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/video_path"
+        android:layout_alignRight="@id/browse"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF69B4"
+        android:gravity="center"
+        android:padding="@dimen/_2_5_unit"
+        android:text="Choose Video"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_10_unit" />
+
+    <TextView
+        android:id="@+id/video_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignTop="@id/browse"
+        android:layout_alignBottom="@id/browse"
+        android:layout_toLeftOf="@id/browse"
+        android:gravity="left|center_vertical"
+        android:hint="Video Path"
+        android:paddingLeft="@dimen/_5_unit"
+        android:paddingRight="@dimen/_2_5_unit"
+        android:textSize="@dimen/font_7_unit" />
+
+    <Button
+        android:id="@+id/browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignParentRight="true"
+        android:text="Browse"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_path"
+        android:layout_alignLeft="@id/video_path"
+        android:layout_alignRight="@id/browse"
+        android:gravity="left|center_vertical"
+        android:hint="Contact Name"
+        android:paddingLeft="@dimen/_5_unit"
+        android:paddingRight="@dimen/_5_unit"
+        android:textSize="@dimen/font_10_unit" />
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_name"
+        android:layout_alignLeft="@id/video_path"
+        android:layout_alignRight="@id/browse"
+        android:gravity="left|center_vertical"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingLeft="@dimen/_5_unit"
+        android:paddingRight="@dimen/_5_unit"
+        android:textSize="@dimen/font_10_unit" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_number"
+        android:layout_alignRight="@id/browse"
+        android:padding="@dimen/_5_unit"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_number"
+        android:layout_marginRight="@dimen/_5_unit"
+        android:layout_toLeftOf="@id/btn_ok"
+        android:padding="@dimen/_5_unit"
+        android:text="Cancel" />
+</RelativeLayout>

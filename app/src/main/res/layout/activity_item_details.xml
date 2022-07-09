@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="christmas.hotvideocallprank.christmassantavideocall.snapchat.ContactDetailsActivity">
+
+    <!-- Test : ca-app-pub-3940256099942544/6300978111 -->
+    <!-- Original : ca-app-pub-2639168308638517/2308711449 -->
+    <!--    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:id="@+id/adView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        ads:adSize="LARGE_BANNER"-->
+    <!--        ads:adUnitId="ca-app-pub-2639168308638517/2308711449"></com.google.android.gms.ads.AdView>-->
+
+    <christmas.hotvideocallprank.christmassantavideocall.snapchat.ads.AFLayout
+        android:id="@+id/af_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/_60_unit"
+        android:layout_height="@dimen/_90_unit"
+        android:layout_below="@id/af_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5_unit"
+        android:scaleType="center" />
+
+    <RelativeLayout
+        android:id="@+id/name_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnail"
+        android:layout_marginTop="@dimen/_5_unit"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_10_unit"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5_unit"
+            android:layout_toRightOf="@id/name"
+            android:background="@drawable/ic_edit_black_24dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/phone_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_row"
+        android:layout_marginTop="@dimen/_5_unit"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/phone_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_10_unit"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/edit_phone_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5_unit"
+            android:layout_toRightOf="@id/phone_no"
+            android:background="@drawable/ic_edit_black_24dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_row"
+        android:fadeScrollbars="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/call_now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_15_unit"
+                android:layout_marginTop="@dimen/_5_unit"
+                android:layout_marginRight="@dimen/_15_unit"
+                android:background="@color/red"
+                android:text="Call me Now"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_9_unit" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sec_5_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/call_now"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_15_unit"
+                android:layout_marginTop="@dimen/_5_unit"
+                android:layout_marginRight="@dimen/_15_unit"
+                android:background="@color/red"
+                android:text="Call me after 5 seconds"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_9_unit" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sec_10_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sec_5_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_15_unit"
+                android:layout_marginTop="@dimen/_5_unit"
+                android:layout_marginRight="@dimen/_15_unit"
+                android:background="@color/red"
+                android:text="Call me after 10 seconds"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_9_unit" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/min_1_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sec_10_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_15_unit"
+                android:layout_marginTop="@dimen/_5_unit"
+                android:layout_marginRight="@dimen/_15_unit"
+                android:background="@color/red"
+                android:text="Call me after 1 minute"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_9_unit" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/min_5_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/min_1_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_15_unit"
+                android:layout_marginTop="@dimen/_5_unit"
+                android:layout_marginRight="@dimen/_15_unit"
+                android:background="@color/red"
+                android:text="Call me after 5 minute"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_9_unit"
+                android:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/set_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/min_5_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_15_unit"
+                android:layout_marginTop="@dimen/_5_unit"
+                android:layout_marginRight="@dimen/_15_unit"
+                android:background="@color/red"
+                android:text="Set your time"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_9_unit"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

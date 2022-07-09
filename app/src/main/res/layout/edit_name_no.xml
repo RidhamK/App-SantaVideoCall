@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_160_unit"
+    android:layout_height="wrap_content"
+    tools:context="christmas.hotvideocallprank.christmassantavideocall.snapchat.ContactListActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF69B4"
+        android:gravity="center"
+        android:padding="@dimen/_2_5_unit"
+        android:text="Edit"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_10_unit" />
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignLeft="@id/title"
+        android:layout_alignRight="@id/title"
+        android:layout_marginTop="@dimen/_5_unit"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/_5_unit"
+        android:paddingRight="@dimen/_5_unit"
+        android:textSize="@dimen/font_10_unit" />
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_name"
+        android:layout_alignLeft="@id/title"
+        android:layout_alignRight="@id/title"
+        android:gravity="left|center_vertical"
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingLeft="@dimen/_5_unit"
+        android:paddingRight="@dimen/_5_unit"
+        android:textSize="@dimen/font_10_unit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_number">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_number"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:textSize="@dimen/font_9_unit" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/_5_unit"
+            android:layout_weight="1"
+            android:text="SAVE"
+            android:textSize="@dimen/font_9_unit" />
+    </LinearLayout>
+</RelativeLayout>

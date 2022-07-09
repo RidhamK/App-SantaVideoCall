@@ -1,0 +1,183 @@
+
+C
+java:S1185j"(Remove this method to simply inherit it.(Ó»×¶şÿÿÿÿ
+M
+java:S18748"2Remove this use of "CameraInfo"; it is deprecated.(¯ÕÂ¦ÿÿÿÿÿ
+?	java:S108ò")Either remove or fill this block of code.(”ı¾
+E
+java:S1874‹".Remove this use of "Camera"; it is deprecated.(“‚Ô£
+J
+java:S1874Î"3Remove this use of "stopPreview"; it is deprecated.(Ò„Ø–
+R
+java:S1874§"6Remove this use of "FLASH_MODE_OFF"; it is deprecated.(ç©ÆÅøÿÿÿÿ
+O
+java:S1874¶"3Remove this use of "orientation"; it is deprecated.(áŒŸÏúÿÿÿÿ
+
+java:S1186Ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸îå¶ûÿÿÿÿ
+m
+java:S1450-"WRemove the "rotation" field and declare it as a local variable in the relevant methods.(›Èàş
+L
+java:S1144–"0Remove this unused private "createAlert" method.(øÊøßûÿÿÿÿ
+R
+java:S1874‹";Remove this use of "CAMERA_FACING_FRONT"; it is deprecated.(“‚Ô£
+Q
+java:S1874‹":Remove this use of "CAMERA_FACING_BACK"; it is deprecated.(“‚Ô£
+I
+java:S1874‹"2Remove this use of "CameraInfo"; it is deprecated.(“‚Ô£
+V	java:S110""<This class has 9 parents which is greater than 5 authorized.(³°¬Åøÿÿÿÿ
+H
+java:S1874‚",Remove this use of "open"; it is deprecated.(ß¹ï¯øÿÿÿÿ
+K
+java:S1874¦"4Remove this use of "setFlashMode"; it is deprecated.(ùÊ‘Ç
+J
+java:S1874§".Remove this use of "Camera"; it is deprecated.(ç©ÆÅøÿÿÿÿ
+Q
+java:S1874Œ":Remove this use of "CAMERA_FACING_BACK"; it is deprecated.(û¨ˆ›
+E
+java:S1874½".Remove this use of "Camera"; it is deprecated.(Ò÷‹
+E
+java:S1481Å".Remove this unused "showFlash" local variable.(”·ó‰
+I
+java:S1874›"2Remove this use of "CameraInfo"; it is deprecated.(ñÌÈò
+m
+java:S1450/"RRemove the "afd" field and declare it as a local variable in the relevant methods.(„˜„àúÿÿÿÿ
+P
+java:S1874¾"4Remove this use of "setFlashMode"; it is deprecated.(•ƒ¦Îúÿÿÿÿ
+R	java:S125ã"<This block of commented-out lines of code should be removed.(Åğí¡
+<
+java:S11700"!Make this final field static too.(Áçğùÿÿÿÿ
+J
+java:S1874¾".Remove this use of "Camera"; it is deprecated.(•ƒ¦Îúÿÿÿÿ
+\
+java:S1874½"ERemove this use of "FOCUS_MODE_CONTINUOUS_PICTURE"; it is deprecated.(Ò÷‹
+R	java:S125é"<This block of commented-out lines of code should be removed.(™àêä
+J
+java:S1874‚".Remove this use of "Camera"; it is deprecated.(ß¹ï¯øÿÿÿÿ
+J
+java:S1874°".Remove this use of "Camera"; it is deprecated.(ƒôªÿÿÿÿÿ
+U
+java:S1874»">Remove this use of "getSupportedFlashModes"; it is deprecated.(ª™”Î
+I
+java:S1874½"2Remove this use of "Parameters"; it is deprecated.(Ò÷‹
+
+java:S1186‹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÇßÜúúÿÿÿÿ
+K
+java:S1874¨"5Remove this use of "setParameters"; it is deprecated.(–©
+E
+java:S1874›".Remove this use of "Camera"; it is deprecated.(ñÌÈò
+O
+java:S1874Í"8Remove this use of "setErrorCallback"; it is deprecated.(ÑÂÛ¡
+N
+java:S1874°"2Remove this use of "CameraInfo"; it is deprecated.(ƒôªÿÿÿÿÿ
+K
+java:S1874"4Remove this use of "startPreview"; it is deprecated.(ÌœŒß
+E
+java:S1874¦".Remove this use of "Camera"; it is deprecated.(ùÊ‘Ç
+K
+java:S1874Å"4Remove this use of "getFlashMode"; it is deprecated.(”·ó‰
+T
+java:S1874‰"8Remove this use of "setErrorCallback"; it is deprecated.(öé¼¼üÿÿÿÿ
+J
+java:S1874Á"3Remove this use of "setRotation"; it is deprecated.(£Á®—
+V
+java:S18748";Remove this use of "CAMERA_FACING_FRONT"; it is deprecated.(¯ÕÂ¦ÿÿÿÿÿ
+Q	java:S125m"<This block of commented-out lines of code should be removed.(šˆ¡¹
+J
+java:S1874‹".Remove this use of "Camera"; it is deprecated.(ÇßÜúúÿÿÿÿ
+N
+java:S1874¾"2Remove this use of "Parameters"; it is deprecated.(•ƒ¦Îúÿÿÿÿ
+L
+java:S1874¥"5Remove this use of "getParameters"; it is deprecated.(íÍ¡Î
+E
+java:S1874Œ".Remove this use of "Camera"; it is deprecated.(û¨ˆ›
+N
+java:S1874Ä"2Remove this use of "Parameters"; it is deprecated.(ä¢Äöûÿÿÿÿ
+I
+java:S1135«"2Complete the task associated to this TODO comment.(‡ñÅ¼
+w
+java:S1450$"\Remove the "btnFlipCamera" field and declare it as a local variable in the relevant methods.(—»Ÿ¨øÿÿÿÿ
+N
+java:S1874§"2Remove this use of "Parameters"; it is deprecated.(ç©ÆÅøÿÿÿÿ
+U
+java:S1874Å">Remove this use of "getSupportedFocusModes"; it is deprecated.(”·ó‰
+I
+java:S1874¥"2Remove this use of "Parameters"; it is deprecated.(íÍ¡Î
+U
+java:S1874P":Remove this use of "getNumberOfCameras"; it is deprecated.(ƒ¸Õıÿÿÿÿ
+F
+java:S1066½"/Merge this if statement with the enclosing one.(Ò÷‹
+W
+java:S1874°";Remove this use of "CAMERA_FACING_FRONT"; it is deprecated.(ƒôªÿÿÿÿÿ
+V	java:S125L"<This block of commented-out lines of code should be removed.(‰ÊÈ‚ıÿÿÿÿ
+Q	java:S125³"<This block of commented-out lines of code should be removed.(Ä´é
+>
+java:S1185±"(Remove this method to simply inherit it.(¹§ 
+K
+java:S1874Ï"/Remove this use of "release"; it is deprecated.(ÃÏÏûÿÿÿÿ
+o	java:S1160"URename this field "MAX_VOLUME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áçğùÿÿÿÿ
+J
+java:S1874°".Remove this use of "facing"; it is deprecated.(ƒôªÿÿÿÿÿ
+Q
+java:S1874Ì":Remove this use of "setPreviewCallback"; it is deprecated.(–ÌªÂ
+O
+java:S1874¦"8Remove this use of "FLASH_MODE_TORCH"; it is deprecated.(ùÊ‘Ç
+J
+java:S1874²"3Remove this use of "orientation"; it is deprecated.(ôÅ©„
+Q	java:S125S"<This block of commented-out lines of code should be removed.(Ñºçò
+I
+java:S1874¦"2Remove this use of "Parameters"; it is deprecated.(ùÊ‘Ç
+J
+java:S1874Ä".Remove this use of "Camera"; it is deprecated.(ä¢Äöûÿÿÿÿ
+
+java:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©íÂÿÿÿÿÿ
+E
+java:S1874‹".Remove this use of "Camera"; it is deprecated.(“‚Ô£
+L
+java:S1874¹"5Remove this use of "getParameters"; it is deprecated.(‰ú
+I
+java:S1874(".Remove this use of "Camera"; it is deprecated.(Î¬Òúùÿÿÿÿ
+W	java:S125˜"<This block of commented-out lines of code should be removed.(·ãùşûÿÿÿÿ
+I
+java:S1874‹"2Remove this use of "CameraInfo"; it is deprecated.(“‚Ô£
+J
+java:S1874œ".Remove this use of "Camera"; it is deprecated.(ãûÈÿøÿÿÿÿ
+V	java:S125E"<This block of commented-out lines of code should be removed.(‰±ûÏüÿÿÿÿ
+a
+java:S1874¾"ERemove this use of "FOCUS_MODE_CONTINUOUS_PICTURE"; it is deprecated.(•ƒ¦Îúÿÿÿÿ
+P
+java:S1874"9Remove this use of "setPreviewDisplay"; it is deprecated.(Ïõàë
+E
+java:S1874›".Remove this use of "Camera"; it is deprecated.(ñÌÈò
+V
+java:S1874—"?Remove this use of "Theme_Holo_Light_Dialog"; it is deprecated.(£œ×ª
+R	java:S125Æ"<This block of commented-out lines of code should be removed.(áú¨õ
+I
+java:S1874Œ"2Remove this use of "CameraInfo"; it is deprecated.(û¨ˆ›
+I
+java:S1874¹"2Remove this use of "Parameters"; it is deprecated.(‰ú
+I
+java:S1874›"2Remove this use of "CameraInfo"; it is deprecated.(ñÌÈò
+Q
+java:S1874œ"5Remove this use of "getCameraInfo"; it is deprecated.(ãûÈÿøÿÿÿÿ
+—
+java:S1186Ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦æ—&
+I
+java:S1874P".Remove this use of "Camera"; it is deprecated.(ƒ¸Õıÿÿÿÿ
+T
+java:S1854Å"=Remove this useless assignment to local variable "showFlash".(”·ó‰
+E
+java:S1874¥".Remove this use of "Camera"; it is deprecated.(íÍ¡Î
+I
+java:S18748".Remove this use of "Camera"; it is deprecated.(¯ÕÂ¦ÿÿÿÿÿ
+T
+java:S1874¸"=Remove this use of "setDisplayOrientation"; it is deprecated.(Ğø¿¥
+J
+java:S1874‰".Remove this use of "Camera"; it is deprecated.(öé¼¼üÿÿÿÿ
+E
+java:S1874¹".Remove this use of "Camera"; it is deprecated.(‰ú
+U
+java:S1874Å">Remove this use of "getSupportedFlashModes"; it is deprecated.(”·ó‰
+N
+java:S1144¢"2Remove this unused private "flashOnButton" method.(Å È—ıÿÿÿÿ
+E
+java:S1874š".Remove this use of "Camera"; it is deprecated.(Úêš˜

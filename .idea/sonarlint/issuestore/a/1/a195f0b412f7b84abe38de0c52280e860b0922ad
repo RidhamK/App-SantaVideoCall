@@ -1,0 +1,34 @@
+
+f	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÔÓ
+E
+java:S1066e"/Merge this if statement with the enclosing one.(ß¸é
+z	java:S1160"`Rename this field "REQUEST_GALLERY_VIDEO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ì£§øÿÿÿÿ
+8
+java:S23861"Make this member "protected".(²¡™Úøÿÿÿÿ
+~
+java:S1450/"cRemove the "floatingActionButton" field and declare it as a local variable in the relevant methods.(¨”†úÿÿÿÿ
+F
+java:S1066Û"/Merge this if statement with the enclosing one.(ùµ•›
+c
+java:S3252s"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(¨ÔÓ
+X	java:S110,"<This class has 9 parents which is greater than 5 authorized.(Ù©Éş8Ûş‘éË.
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ìŠÔñıÿÿÿÿ
+<
+java:S11700"!Make this final field static too.(¼Ì£§øÿÿÿÿ
+J
+java:S1066d"/Merge this if statement with the enclosing one.(İ©óÿúÿÿÿÿ
+D
+java:S1185ê"(Remove this method to simply inherit it.(Ó»×¶şÿÿÿÿ
+K
+java:S1185ı"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ8Ù–Œ®×.
+c
+java:S3252p"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(ÛÄşİ
+z
+java:S3252İ"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ß„Ïıÿÿÿÿ8Ûş‘éË.
+B
+java:S1874p",Remove this use of "DATA"; it is deprecated.(ÛÄşİ
+B
+java:S1874s",Remove this use of "DATA"; it is deprecated.(¨ÔÓ
+W	java:S125í"<This block of commented-out lines of code should be removed.(¡“Ãøÿÿÿÿ
+R	java:S125ö"<This block of commented-out lines of code should be removed.(ëõ·ã
